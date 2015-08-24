@@ -3,8 +3,8 @@
 
 typedef struct
 {
-  _Bool(*readBytes)(uint8_t addr, unsigned char * buf, uint16_t numBytes, _Bool stop);
-  _Bool(*writeBytes)(uint8_t addr, unsigned char * buf, uint16_t numBytes, _Bool stop);
+  _Bool(*readBytes)(uint8_t addr, char * buf, uint16_t numBytes, _Bool stop);
+  _Bool(*writeBytes)(uint8_t addr, char * buf, uint16_t numBytes, _Bool stop);
 
 }FS_DT_I2CDriver_t;
 
