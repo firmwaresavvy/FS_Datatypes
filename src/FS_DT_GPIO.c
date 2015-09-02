@@ -1,12 +1,10 @@
 /**
  *******************************************************************************
  *
- * @file  FS_DT_GPIO.c
+ * @file
  *
  * @brief FirmwareSavvy generic GPIO abstraction datatypes helper functions.
- *
- * @author Andy Norris [andy@firmwaresavvy.com]
- *
+  *
  *******************************************************************************
  */
 
